@@ -28,13 +28,17 @@ body{
 .primary-link{
   background-color: var(--primary-color);
   border-radius: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   color:white
 }
 
 .secondary-link{
   color: var(--primary-color);
   border-radius: 0.5rem;
-  border: 1px solid var(--primary-color)
+  border: 1px solid var(--primary-color);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 hr{
@@ -56,7 +60,7 @@ hr{
   background-color: var(--primary-color);
   color:white;
   padding: 1rem;
-  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
 }
 
 .navigation .nav-brand{
@@ -111,7 +115,12 @@ background-color: var(--off-white);
   padding: 2rem 0rem;
   text-align: center;
   color: white;
-  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.footer .footer-header{
+  font-size: large;
+  font-weight: bold;
 }
 
 .footer .link{
