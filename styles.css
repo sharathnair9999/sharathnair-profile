@@ -11,8 +11,7 @@ body{
 }
 
 .container{
-  padding-left:1rem;
-  padding-right: 1rem;
+  padding: 2rem;
 }
 
 .container-center{
@@ -67,7 +66,7 @@ hr{
 .navigation{
   background-color: var(--primary-color);
   color:white;
-  padding: 1rem;
+  padding: 1rem 5rem;
   border-top-left-radius: 1rem;
 }
 
@@ -116,6 +115,7 @@ hr{
 
 .ow{
 background-color: var(--off-white);
+border-radius: 1rem;
 }
 
 .footer{
