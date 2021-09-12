@@ -32,6 +32,14 @@ body{
   margin-bottom: 1rem;
   color:white
 }
+.primary-link:hover{
+  background-color: #10B981;
+}
+.secondary-link:hover{
+  background-color: #D1D5DB;
+  color: white;
+  border: none;
+}
 
 .secondary-link{
   color: var(--primary-color);
