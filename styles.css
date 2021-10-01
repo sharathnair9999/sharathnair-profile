@@ -12,6 +12,12 @@ body{
   margin:0;
 }
 
+.date{
+  text-align: center;
+  color: #6B7280;
+  align-content: center;
+}
+
 .container{
   padding: 2rem;
 }
@@ -98,7 +104,7 @@ hr{
 }
 
 .hero .hero-image{
-  max-width: 350px;
+  max-width: 450px;
   display: block;
   margin: auto;
 }
@@ -117,8 +123,13 @@ hr{
   color: var(--dark-gray);
   padding: 1rem;
   text-align: center;
+  font-size: 3rem;
 }
 
+.return{
+  padding:1rem;
+  
+}
 
 .section{
   padding: 1rem;
