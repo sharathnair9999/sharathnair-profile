@@ -23,7 +23,7 @@ body{
 }
 
 .container-center{
-  max-width: 600px;
+  max-width: 50rem;
   margin: auto;
 }
 .nav-brand .link{
@@ -67,6 +67,7 @@ hr{
 
 .list-non-bullet{
   list-style: none;
+  padding: 0px;
 }
 
 .list-item-inline{
