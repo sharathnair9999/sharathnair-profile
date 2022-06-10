@@ -52,8 +52,6 @@ body {
 .primary-link {
   background-color: var(--primary-color);
   border-radius: 0.5rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
   color: white;
 }
 .primary-link:hover {
@@ -70,8 +68,6 @@ body {
   border-radius: 0.5rem;
   color: rgb(0, 0, 0);
   background-color: #e8e8e8;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
 .more {
@@ -226,7 +222,9 @@ hr {
 .each-project {
   max-width: 800px;
   width: 100%;
-  padding: 10px 20px;
+  box-shadow: 2px 3px 3px 0 rgba(0, 0, 0, 0.3);
+  padding: 5px 10px;
+  border-radius: 4px;
 }
 
 .email {
@@ -236,4 +234,7 @@ hr {
 
 .email:hover {
   text-decoration: underline;
+}
+.inside-link {
+  color: rgb(99, 99, 99);
 }
