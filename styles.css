@@ -238,3 +238,15 @@ hr {
 .inside-link {
   color: rgb(99, 99, 99);
 }
+
+.resume-link > a {
+  background-color: var(--primary-color);
+  color: var(--off-white);
+  padding: 4px 8px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.resume-link img {
+  color: white;
+}
